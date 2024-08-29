@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodejs-container
-        image: nodejswebapp
+        image: nodejswebapp1
         ports:
         - containerPort: 3000
         env:
