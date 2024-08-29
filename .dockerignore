@@ -1,0 +1,18 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore log files
+*.log
+
+# Ignore environment variables file
+.env
+
+# Ignore Dockerfile and .dockerignore
+Dockerfile
+.dockerignore
+
+# Ignore any other files or directories you don't want to include in the Docker image
+.git
+.gitignore
+npm-debug.log
+yarn-error.log
